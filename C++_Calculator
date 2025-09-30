@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main(){
+        string d="------------------------------";
+        cout<<d<<endl
+        <<"Welcome To Marks Calculator.."<<endl<<d;
+
+        cout<<endl;
+
+        string w;
+        cout << "Enter the Subject Name: " ;
+        cin>> w ;
+        int x;
+        cout<<"Total Marks: ";
+        cin>> x;
+        int y;
+        cout <<"Enter the Obtained marks: "; 
+        cin >> y;
+        float z = ((float)y/x)*100;
+        cout<<d<<endl<<"You Got: " << z << "%" << " in "<< w<<endl<<d;
+        return 0;
+}
